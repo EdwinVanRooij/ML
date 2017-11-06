@@ -1,0 +1,25 @@
+Ex:
+curl --request GET 'https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/RiotSchmick?api_key=<key>' --include
+
+Region:
+euw1.api.riotgames.com
+
+Api key:
+RGAPI-bc1a5ecf-b23d-4965-bde0-3ee63f30bcb4
+
+Summoner:
+8%20Master%20Yi%208
+EÐWIN
+
+
+Sample request:
+curl --request GET 'https://euw1.api.riotgames.com/lol/summoner/v3/summoners/by-name/8%20Master%20Yi%208?api_key=RGAPI-bc1a5ecf-b23d-4965-bde0-3ee63f30bcb4' --include
+curl --request GET 'https://euw1.api.riotgames.com/lol/summoner/v3/summoners/by-name/EÐWIN?api_key=RGAPI-bc1a5ecf-b23d-4965-bde0-3ee63f30bcb4' --include
+
+Summoner info:
+{"id":41562438,"accountId":200749906,"name":"8 Master Yi 8","profileIconId":3006,"revisionDate":1509045618000,"summonerLevel":30}
+{"id":37469298,"accountId":40184560,"name":"EÐWIN","profileIconId":3006,"revisionDate":1509927123000,"summonerLevel":30}
+
+
+Requests:
+curl --request GET 'https://euw1.api.riotgames.com/lol/match/v3/matchlists/by-account/40184560?api_key=RGAPI-bc1a5ecf-b23d-4965-bde0-3ee63f30bcb4' --include
