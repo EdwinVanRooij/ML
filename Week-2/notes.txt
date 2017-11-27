@@ -1,0 +1,4 @@
+// Presentation
+https://portal.fhict.nl/Studentenplein/LMC/_layouts/15/WopiFrame.aspx?sourcedoc=/Studentenplein/LMC/1718nj/Minoren/AppliedDataScience/ML/ML02_ClassificationByEye.pptx&action=default
+
+at 'Question: what do the other rows of the matrix...'
